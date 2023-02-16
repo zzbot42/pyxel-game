@@ -1,6 +1,6 @@
 import pyxel
 from engine import *
-pyxel.image(0).load(0, 0, "filename.pyxres")
+#pyxel.image(0).load(0, 0, "filename.pyxres")
 
 SKY_COLOR = 8
 PLAYER_COLOR = 11
