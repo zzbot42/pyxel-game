@@ -14,6 +14,10 @@ class App:
             Box(0, pyxel.height - 20, pyxel.width, 20, FLOOR_COLOR, filled=True),
             Box(50, pyxel.height - 100, 40, 20, FLOOR_COLOR, filled=True),
             Box(-200, pyxel.height - 20, 30, 25, FLOOR_COLOR, filled=True),
+            Box(-400, pyxel.height - 20, 30, 25, FLOOR_COLOR, filled=True),
+            Box(-500, pyxel.height - 100, 30, 25, FLOOR_COLOR, filled=True),
+
+
 
         ]
         self.player = Player(
@@ -34,8 +38,8 @@ class App:
         for floor in self.floors:
             self.player.fall(floor.is_colliding_top)
         self.player.inputs()
-        pyxel.camera(self.player.x - 50, 0)
-
+        pyxel.camera(self.player.x - 190, 10)
+ 
     def draw(self):
         pyxel.cls(SKY_COLOR)
 
