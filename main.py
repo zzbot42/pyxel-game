@@ -2,9 +2,9 @@ import pyxel
 from engine import *
 #pyxel.image(0).load(0, 0, "filename.pyxres")
 
-SKY_COLOR = 8
+SKY_COLOR = 0
 PLAYER_COLOR = 11
-FLOOR_COLOR = 4
+FLOOR_COLOR = 12
 
 
 class App:
@@ -13,7 +13,7 @@ class App:
         self.floors = [
             Box(0, pyxel.height - 20, pyxel.width, 20, FLOOR_COLOR, filled=True),
             Box(50, pyxel.height - 100, 40, 20, FLOOR_COLOR, filled=True),
-            Box(50, pyxel.height - 50, 80, 200, FLOOR_COLOR, filled=True),
+            Box(-200, pyxel.height - 20, 30, 25, FLOOR_COLOR, filled=True),
 
         ]
         self.player = Player(
