@@ -75,7 +75,7 @@ class Box:
             )
         ):
             if box.phys.dy > 0:
-                # knockback
+                # knockbacka
                 box.phys.ground()
                 box.y = self.y - box.h
                 box.phys.dy = 0
