@@ -16,6 +16,20 @@ class App:
             Box(-200, pyxel.height - 20, 30, 25, FLOOR_COLOR, filled=True),
             Box(-400, pyxel.height - 20, 30, 25, FLOOR_COLOR, filled=True),
             Box(-500, pyxel.height - 100, 30, 25, FLOOR_COLOR, filled=True),
+            Box(-700, pyxel.height - 150, 30, 25, FLOOR_COLOR, filled=True),
+            Box(-850, pyxel.height - 0, 30, 25, FLOOR_COLOR, filled=True),
+            Box(-1000, pyxel.height - 20, 30, 25, FLOOR_COLOR, filled=True),
+            Box(-1100, pyxel.height - 20, 20, 25, FLOOR_COLOR, filled=True),
+            Box(-1300, pyxel.height - 20, 20, 25, FLOOR_COLOR, filled=True),
+            Box(-1500, pyxel.height - 20, 20, 25, FLOOR_COLOR, filled=True),
+            Box(-1600, pyxel.height - 20, 20, 25, FLOOR_COLOR, filled=True),
+            Box(-1700, pyxel.height - 100, 20, 25, FLOOR_COLOR, filled=True),
+            Box(-1600, pyxel.height - 180, 20, 25, FLOOR_COLOR, filled=True),
+            Box(-1700, pyxel.height - 260, 20, 25, FLOOR_COLOR, filled=True),
+
+
+
+
 
 
 
